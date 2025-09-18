@@ -37,7 +37,7 @@ public class Main
 
             else if (op == 2)
             {
-                System.out.println("Digite o nome, valor (em R$) e quantidade do produto: ");
+                System.out.println("Digite o nome do produto: ");
                 
                 nome = tec.nextLine();
                 tec.next();
@@ -71,8 +71,5 @@ public class Main
                 System.out.println("Operação inválida!");
             }
         } while (op != 5);
-
-        System.out.println("Digite o nome, valor (em R$) e quantidade do produto: ");
-        nome = tec.nextLine();
     }
 }
